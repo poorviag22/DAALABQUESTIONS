@@ -36,7 +36,7 @@ void mergesort(int arr[],int low,p;int high,int &comp,int &inv)
         int mid=(low+high)/2;
         mergesort(arr,low,mid,comp,inv);
         mergesort(arr,mid+1,high,comp,inv);
-        mergee(arr,low,mid,high,comp);
+        merge(arr,low,mid,high,comp);
     }
 }
 int main()
