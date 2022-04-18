@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void mergee(int arr[],int low,int mid,int high,int &comp)
+void merge(int arr[],int low,int mid,int high,int &comp)
 {
     int n1=mid-low+1;
     int n2=high-mid;
